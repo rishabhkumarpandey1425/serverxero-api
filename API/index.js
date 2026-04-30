@@ -40,7 +40,7 @@ export default async function handler(req, res) {
     if (startIndex !== -1 && endIndex !== -1) {
         text = text.substring(startIndex, endIndex);
     }
-    
+    //giughiughiukghku hjbguig ghuiyhyugiug
     const files = JSON.parse(text);
     return res.status(200).json({ files: files });
 
